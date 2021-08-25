@@ -1,0 +1,61 @@
+[
+  {
+    "organization": {
+      "name": "Milyli",
+      "link": "https://www.milyli.com/"
+    },
+    "roles": [
+      {
+        "title": "Senior Developer",
+        "startDate": "2021-05"
+      },
+      {
+        "title": "Software Developer",
+        "startDate": "2018-02",
+        "endDate": "2021-04"
+      }
+    ],
+    "notes": [
+      "Shepherded new developers into the code base",
+      "Developed major features in C# for Blackout, Milyli’s flagship product to perform millions of text matching and redaction operations on Excel, PDF and imaged documents",
+      "Wrote models and migrations for applications’ SQL persistence layer",
+      "Developed MVC, WebAPI and Vue front end for applications’ user and API interactions",
+      "Engineered prototype of an application on the Relativity platform, laying the groundwork for the product Chronicle",
+      "Drove team discussions on application design, solution implementation and code ergonomic",
+      "Led a major refactor of applications display logic into Vue",
+      "Converted style sheets to SCSS, for DRY-er, more maintainable use",
+      "Built a Slack bot in Swift on the Vapor framework to engage team in the build process"
+    ]
+  }, {
+    "organization": {
+      "name": "Miracle Messages",
+      "link": "https://www.miraclemessages.org/"
+    },
+    "roles": [
+      {
+        "title": "Volunteer iOS Developer",
+        "startDate": "2017"
+      }
+    ],
+    "notes": [
+      "Created and modified data models and view controllers to comply with new requirements",
+      "Application containing contributed code released to the App Store"
+    ]
+  }, {
+    "organization": {
+      "name": "Erikson Institute",
+      "link": "https://www.erikson.edu/"
+    },
+    "roles": [
+      {
+        "title": "Technical Support Specialist",
+        "startDate": "2017"
+      }
+    ],
+    "notes": [
+      "Developed and documented the process for deploying Apple computers in the organization",
+      "Standardized the user experience of Apple users in a Windows business environment",
+      "Debugged WordPress, PHP, SQL and JavaScript issues to ensure uninterrupted web service"
+    ]
+  }
+]

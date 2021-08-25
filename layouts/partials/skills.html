@@ -1,0 +1,10 @@
+<section id="skills">
+  {{ range $.Site.Data.skills }}
+    <h6>{{ .grouping }}</h6>
+    <ul>
+      {{ range .skills }}
+        <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+  {{ end }}
+</section>

@@ -1,0 +1,28 @@
+[
+  {
+    "grouping": "Languages, Tools and Frameworks",
+    "skills": [
+      ".NET",
+      "C#",
+      "SQL",
+      "HTML",
+      "JavaScript",
+      "TypeScript",
+      "Vue",
+      "CSS",
+      "SCSS",
+      "Swift",
+      "Java",
+      "Git",
+      "MVC",
+      "WebAPI"
+    ]
+  },
+  {
+    "grouping": "Concepts and Paradigms",
+    "skills": [
+      "Object Oriented Programming",
+      "Test Driven Development"
+    ]
+  }
+]
