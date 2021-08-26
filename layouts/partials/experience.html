@@ -1,0 +1,27 @@
+<section id="experience">
+  <h2>Experience</h2>
+  {{ range .Site.Data.experience }}
+    <h3><a href="{{ .organization.link }}">{{ .organization.name }}</a></h3>
+    {{ range .roles }}
+    <div>
+      <div class="job-title">
+        {{ .title }}
+      </div>
+      <div class="date">
+        {{ if .ongoing }}
+          {{ time.Format "January 2006" .startDate }}&ndash;Present
+        {{ else if isset . "endDate" }}
+          {{ time.Format "January 2006" .startDate }}&ndash;{{ time.Format "January 2006" .endDate }}
+        {{ else }}
+          {{ time.Format "January 2006" .startDate }}
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+    <ul>
+      {{ range .notes }}
+        <li>{{ . | markdownify }}</li>
+      {{ end }}
+    </ul>
+  {{ end }}
+</section>

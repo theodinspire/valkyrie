@@ -2,21 +2,21 @@
   {
     "degree": "Master of Science",
     "fields": ["Computer Science"],
-    "awarded": "2017-06",
+    "awarded": "2017-06-15",
     "school": "DePaul University",
     "city": "Chicago, Illinois, United States"
   },
   {
     "degree": "Bachelor of Science",
     "fields": ["Physics"],
-    "awarded": "2010-06",
+    "awarded": "2010-06-11",
     "school": "DePaul University",
     "city": "Chicago, Illinois, United States"
   },
   {
     "degree": "Bachelor of Arts",
     "fields": ["Art"],
-    "awarded": "2010-06",
+    "awarded": "2010-06-11",
     "school": "DePaul University",
     "city": "Chicago, Illinois, United States"
   }

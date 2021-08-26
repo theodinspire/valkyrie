@@ -1,6 +1,7 @@
 <section id="skills">
-  {{ range $.Site.Data.skills }}
-    <h6>{{ .grouping }}</h6>
+  <h2>Skills</h2>
+  {{ range .Site.Data.skills }}
+    <h3>{{ .grouping }}</h3>
     <ul>
       {{ range .skills }}
         <li>{{ . }}</li>
