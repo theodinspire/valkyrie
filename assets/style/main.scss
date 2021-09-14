@@ -1,0 +1,71 @@
+$rose-pink: #e970caff;
+$persian-pink: #f98cc8ff;
+$alice-blue: #e5ecf4ff;
+$purple-plum: #a347c3ff;
+$glaucous: #6c88d2ff;
+$y-in-mn-blue: #304d9cff;
+$eminence: #732d8bff;
+$dark-purple: #1a0a1f;
+$rich-black-fogra-29: #090f1f;
+
+$clear: rgba(0, 0, 0, 0);
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@font-face {
+  font-family: 'Poiret One';
+  src: url('/fonts/PoiretOne-Regular.ttf');
+}
+
+html, body {
+  height: 100%;
+}
+
+* {
+  font-family: 'Montserrat', 'Montserrat', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+#hero {
+  height: 100%;
+
+  color: $persian-pink;
+  background: $rich-black-fogra-29;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  h1, h2 {
+    z-index: 10;
+  }
+
+  h1 {
+    font-size: 100px;
+    font-weight: 100;
+    font-family: 'Montserrat Alternates';
+    color: #fff;
+
+    text-shadow:
+      // inset 0 0 50px #fff,      /* inner white */
+      // inset 20px 0 80px #f0f,   /* inner left magenta short */
+      // inset -20px 0 80px #0ff,  /* inner right cyan short */
+      // inset 20px 0 300px #f0f,  /* inner left magenta broad */
+      // inset -20px 0 300px #0ff, /* inner right cyan broad */
+      0    0 5px #fff,            /* outer white */
+      -1px 0 8px #f0f,        /* outer left magenta */
+      1px  0 8px #0ff;
+  }
+
+  .bevel {
+    width: 100%;
+    height: 100%;
+    transform: skew(-24deg);
+    background: linear-gradient(0.1turn, $clear, $clear 50%, $rose-pink);
+
+    position: absolute;
+    top: 0;
+    right: 67%
+  }
+}
